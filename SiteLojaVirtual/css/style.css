@@ -56,9 +56,18 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+}
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
 }
 
 header {
+
     background-color: var(--corPrimaria);
     color: var(--corSecundaria);
 }
