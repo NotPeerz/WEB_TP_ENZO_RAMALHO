@@ -24,30 +24,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <!-- CABEÇALHO -->
     <header class="text-center p-3 sticky-top">     
-        <!-- NAVEGAÇÃO -->
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-            </a>
-            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-secondary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-dark-blue); --bs-nav-pills-link-active-bg: var(--bs-white);">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Página inicial</button>
+      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PeerzStore</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
               </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Sobre nós</button>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
               </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Contato</button>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
               </li>
             </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Digita o que precisas..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+ <!-- !!!NAV FEITA!!! -->
     <!-- CONTEÚDO -->
     <main class="container mb-3 p-3 shadow rounded-4">
         <div class="logo p-3 text-center">
@@ -72,8 +77,6 @@
             </div>
         </div>
     </footer>
-
-
 
 
     <!-- BOOTSTRAP JS -->
