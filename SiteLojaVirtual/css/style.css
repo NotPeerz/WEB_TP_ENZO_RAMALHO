@@ -3,6 +3,11 @@
 --corSecundaria: #ff00aa;
 }
 
+body {
+    background-color: darkblue;
+}
+
+
 footer a {
 color: var(--corPrimaria);
 padding: 10%;
