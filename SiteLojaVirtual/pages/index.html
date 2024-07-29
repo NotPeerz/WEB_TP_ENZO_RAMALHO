@@ -25,7 +25,9 @@
 </head>
 <body>
     <!-- CABEÇALHO -->
-    <header class="text-center p-3 sticky-top">     
+    <header class="text-center p-3 sticky-top">
+      
+      <!-- NAVEGAÇÃO-->    
       <nav class="navbar col-12 position-fixed bg-dark border-bottom border-body" data-bs-theme="dark" style="z-index: 999;">
         <div class="container-fluid col-11 m-auto">
           <a class="navbar-brand" href="index.html">PeerzStore</a>
@@ -35,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="PaginaInicial.html">Página Inicial</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Sobrenos.html">Sobre nós</a>
@@ -53,8 +55,18 @@
       </nav>
       <br><br><br>
 
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
+
+
+  </header>
+ 
+    <!-- CONTEÚDO -->
+    <main class="container mb-3 p-3 shadow rounded-4">
+        <div class="logo p-3 text-center " >
+            <img src="SiteLojaVirtual/img/LogoPeerzStore2.png" class="shadow rounded-4" width="100" height="100" alt="">
+        </div>
+        <h1 class="text-center">PeerzStore aproveite suas compras!</h1>   
+           <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators" data-bs-theme="dark" .carousel-dark>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -82,7 +94,7 @@
 
 <div class="card1" style="width: 18rem;">
   <img src="/SiteLojaVirtual/img/mousehyperx.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
+  <div class="card-body card-img-top">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -106,19 +118,10 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-
-  </header>
- <!-- !!!NAV FEITA!!! -->
-    <!-- CONTEÚDO -->
-    <main class="container mb-3 p-3 shadow rounded-4">
-        <div class="logo p-3 text-center">
-            <img src="SiteLojaVirtual/img/logos/PeerzStoreLogo.png" alt="...">
-        </div>
-        <h1 class="text-center">PeerzStore aproveite suas compras!</h1>
     </main>
 
     <!-- RODAPÉ-->
-    <footer class="container-fluid p-3 sticky-bottom">
+    <footer class="container-fluid p-3 sticky-bottom ">
         <div class="row">
             <div class="col-12 col-md-6 text-center my-auto">
                 <span>© PeerzStore <br> Best most various seller store.</span>

@@ -1,0 +1,14 @@
+:root{
+--corPrimaria: #000000;
+--corSecundaria: #ff00aa;
+}
+
+footer a {
+color: var(--corPrimaria);
+padding: 10%;
+font-size: 20px;
+}
+
+footer a:hover{
+    opacity: 80%;
+}
