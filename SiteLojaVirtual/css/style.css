@@ -1,14 +1,37 @@
 :root{
---corSecundaria: #ff00aa;
+--corPrimaria: #96545f;
 }
 
-footer a {
-color: var(--corPrimaria);
-padding: 10%;
-font-size: 20px;
+body {
+    background-color: white;
 }
 
-footer a:hover{
-    opacity: 80%;
-}
+.carousel-inner{
+    max-width: 500px;
+    max-height: 600px;
+    justify-content: center ;
+    }
 
+    .carousel-item img{
+      max-width: 400px;
+      max-height: 450px;
+      justify-content: left ;
+    }
+    
+    .carousel-slide{
+      max-width: 400px;
+      max-height: 450px;
+      justify-content: center ;
+    }
+
+    footer {
+      width: auto ;
+      }
+      footer a{
+        color: #96545f;
+      }
+      footer a:hover{
+    opacity: 80% ;
+    
+  }
+  
